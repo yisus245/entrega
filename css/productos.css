@@ -146,3 +146,44 @@
 }
 
 /* Fin del estilo de los banners */
+@media(max-width:576px){
+    .bannerTamales{
+        width: 250px;
+        height: 350px;
+        border: 3px solid red;
+        margin: 5px;
+        background-size: 100% 100%;
+        animation: bannerTamales 10s infinite;
+        animation-direction: alternate;
+    
+    }
+    .bannerCarne{
+        width: 250px;
+        height: 350px;
+        border: 3px solid red;
+        margin: 5px;
+        background-size: 100% 100%;
+        animation: bannerTamales 10s infinite;
+        animation-direction: alternate;
+    
+    }
+    .bannerTacos{
+        width: 250px;
+        height: 350px;
+        border: 3px solid red;
+        margin: 5px;
+        background-size: 100% 100%;
+        animation: bannerTamales 10s infinite;
+        animation-direction: alternate;
+    
+    }
+    .caja h1{
+        font-size: 30px;
+    }
+    
+    .caja p{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+}

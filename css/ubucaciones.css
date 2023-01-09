@@ -66,3 +66,10 @@
     border-radius: 10%;
 }
 /* Fin de estilos del cuerpo del mapa*/
+@media(max-width:576px){
+    .mapa .submapa{
+        width: 500px;
+        height: 400px;
+        margin: 10px;
+    }
+}
